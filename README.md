@@ -10,8 +10,8 @@ You can click the Preview link to take a look at your changes.
 --->
 
 
-#/bin/bash
+#!/bin/bash
 
 read -p "enter the numbers" num1,num2
-sum=num1+num2;
+sum=`expr $num1+$num2`
 echo $sum
